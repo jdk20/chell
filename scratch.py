@@ -20,12 +20,12 @@ class GeneralPurposeDevice:
         except ValueError:
             raise ValueError('Invalid GPIO pin selected')
 
-        self.__enter__()
+        self.__enter()
 
-    def __enter__(self):
+    def __enter(self):
         pass
 
-    def __exit__(self):
+    def __exit(self):
         pass
 
 
